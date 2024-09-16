@@ -1,5 +1,5 @@
 import { join, sep, extname } from 'path';
-import { readdir, stat, readFile } from 'fs/promises';
+import { readdir, stat } from 'fs/promises';
 
 /**
  * @param {string} dir An absolute path

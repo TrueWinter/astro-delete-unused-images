@@ -1,4 +1,4 @@
-import integration from './src/integration';
+import integration from './src/integration.js';
 
 /** @type {import('./types').Opts} */
 const DEFAULT_PROPS = {

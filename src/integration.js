@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url';
 import { readFile, unlink } from 'fs/promises';
 import { join } from 'path';
-import { getFiles } from './util';
+import { getFiles } from './util.js';
 
 /** @type {import('../types').Integration<Required<import('../types').Opts>} */
 export default function(opts) {
